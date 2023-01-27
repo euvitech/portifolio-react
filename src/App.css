@@ -5,9 +5,9 @@
   --header-height: 4.8rem;
 
   --title-color: #6732d9;
-  --title-color-dark: #2e185e;
+  --title-color-dark: #431111;
   --text-color: #222e3b;
-  --body-color: #EEECE9;
+  --body-color: #e6e6e6;
   --container-color: #fff;
   --color-text-black: #0e0e0e;
   
@@ -27,14 +27,14 @@
   --smaller-font-size: 1.3rem;
   --tiny-font-size: 1rem;
 
-  --mb-0-25: .25rem;
-  --mb-0-5: .5rem;
-  --mb-0-75: .75rem;
-  --mb-1: 1rem;
-  --mb-1-5: 1.0rem;
-  --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
-  --mb-3: 3rem;
+  --mb-0-25: .4rem;
+  --mb-0-5: .8rem;
+  --mb-0-75: 1.2rem;
+  --mb-1: 1.6rem;
+  --mb-1-5: 2.4rem;
+  --mb-2: 3.2rem;
+  --mb-2-5: 4rem;
+  --mb-3: 4.8rem;
 
   --z-tooltip: 10;
   --z-fixed: 100;
@@ -152,25 +152,61 @@ img {
 
 /* BREAKPOINTS */
 
+/* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
-    --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
+    --big-font-size: 4.4rem;
+    --h1-font-size: 2.4rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.6rem;
+    --normal-font-size: 1.5rem;
+    --small-font-size: 1.3rem;
+    --smaller-font-size: 1.2rem;
   }
 }
 
+
 /* For large devices */
 @media screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
 
+  .button {
+    padding: 1.6rem 2.8rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+
+  .section {
+    padding: 3.2rem 0 6.4rem;
+  }
+
+  .section__subtitle {
+    margin-bottom: var(--mb-3);
+  }
 
 }
 
+/* For small devices */
+@media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 3.6rem;
+  }
+
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+}
