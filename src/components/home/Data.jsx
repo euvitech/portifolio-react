@@ -57,7 +57,7 @@ const Data = () => {
             
             <h3 className="home__subtitle">Desenvolvedor Front-End</h3>
             <p className="home__description">Autodidata em codificação, aprendeu design na prática. Adoro destilar assuntos altamente complexos em premissas limpas como um simples pensador que duvida.</p>
-            <a href="" className="button button--flex">
+            <a href="https://wa.me/+5561991335512" className="button button--flex">
             Mande um Oi
             <svg
                   class="button__icon"
