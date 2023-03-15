@@ -1,0 +1,44 @@
+.work__filters {
+    
+}
+
+.work__container {
+    grid-template-columns: repeat(2, max-content);
+    gap: 4.8rem;
+    justify-content: center;
+}
+
+.work__card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.Work__image {
+    width: 295px;
+    border-radius: 1.6rem;
+    margin-bottom: var(--mb-1);
+}
+
+.work__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-5);
+}
+
+.work__button {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    display: flex;
+    align-items: center;
+    column-gap: .4rem;
+}
+
+.work__button-icon {
+    font-size: 1.6rem;
+    transition: 0.4s;
+}
+
+.work__button:hover .work__button-icon {
+    transform: translateX(.4rem);
+}

@@ -1,14 +1,14 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css"
+import { env } from 'process';
 
 const Contact = ()=> {
     const form = useRef();
 
     const sendEmail = (e) => {
       e.preventDefault();
-  
-      emailjs.sendForm('service_m64nck8', 'template_8b8qlgc', form.current, 'r1R8uzgy9Y0i5Kpo8')
+      emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_MAIL_PUBLIC_KEY)
         e.target.reset()
     };
   
