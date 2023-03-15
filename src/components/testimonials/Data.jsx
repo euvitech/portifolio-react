@@ -15,4 +15,10 @@ export const Data = [
         title: "Átara Rossatti",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has b"
     },
+    {
+        id: 3,
+        image: Image3,
+        title: "Átara Rossatti",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has b"
+    },
 ]
