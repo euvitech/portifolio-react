@@ -35,7 +35,7 @@ export const projectsData = [
         id: 4,
         image: Work4,
         title: 'Portfólio Design',
-        category: 'web',
+        category: 'design',
         link: 'https://drive.google.com/drive/folders/1fdrtlqSMylTiYvmpikStgwhUG_qzWpW-?usp=sharing'
 
     }
