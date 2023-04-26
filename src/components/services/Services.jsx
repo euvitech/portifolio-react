@@ -30,33 +30,29 @@ const Services = () => {
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                             <h3 className="services__modal-title">Desenvolvedor Front-End</h3>
-                            <p className="services__modal-description">Serviço com mais de 3 anos de eperiência. Provendo um trabalho de qualidade para meus clientes e empresas.</p>
+                            <p className="services__modal-description">Serviço com 2 anos de eperiência. Provendo um trabalho de qualidade para meus clientes e empresas.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Eu desenvolvi uma inteface de usuário</p>
+                                    <p className="services__modal-info">Desenvolvi projetos de UI com foco na usabilidade do usuário.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Desenvolvedor Web</p>
+                                    <p className="services__modal-info">Realizei melhorias no SEO com o objetivo de posicionar o conteúdo nas primeiras páginas do Google Search.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Eu criei elementos de intereção com UX</p>
+                                    <p className="services__modal-info">Colaborei com o time para integração com APIs RESTful e implementação de funcionalidades que requerem interação com o servidor.</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Eu posiciono o brand da sua empresa</p>
+                                    <p className="services__modal-info">Utilizei o framework Bootstrap para criar interfaces responsivas e agradáveis aos usuários.</p>
                                 </li>
 
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and mockups of products for companies</p>
-                                </li>
                             </ul>
                             </div>
                     </div>
@@ -77,7 +73,7 @@ const Services = () => {
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                             <h3 className="services__modal-title">UI/UX Designer</h3>
-                            <p className="services__modal-description">Serviço com mais de 3 anos de eperiência. Provendo um trabalho de qualidade para meus clientes e empresas.</p>
+                            <p className="services__modal-description">Serviço com 1 anos de eperiência. Provendo um trabalho de qualidade para meus clientes e empresas.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
@@ -95,15 +91,6 @@ const Services = () => {
                                     <p className="services__modal-info">Eu criei elementos de intereção com UX</p>
                                 </li>
 
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Eu posiciono o brand da sua empresa</p>
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and mockups of products for companies</p>
-                                </li>
                             </ul>
                             </div>
                     </div>
@@ -124,22 +111,17 @@ const Services = () => {
                             <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
                             <h3 className="services__modal-title">Visual Designer</h3>
-                            <p className="services__modal-description">Serviço com mais de 3 anos de eperiência. Provendo um trabalho de qualidade para meus clientes e empresas.</p>
+                            <p className="services__modal-description">Serviço com 2 anos de eperiência. Provendo um trabalho de qualidade para meus clientes e empresas.</p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Eu desenvolvi uma inteface de usuário</p>
+                                    <p className="services__modal-info">Desenvolvo criativos para redes sociais e anúncios</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Desenvolvedor Web</p>
-                                </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Eu criei elementos de intereção com UX</p>
+                                    <p className="services__modal-info">Dou vida a arte usando motion design</p>
                                 </li>
 
                                 <li className="services__modal-service">
@@ -149,7 +131,7 @@ const Services = () => {
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design and mockups of products for companies</p>
+                                    <p className="services__modal-info">Design and mockups de produtos para empresa</p>
                                 </li>
                             </ul>
                             </div>

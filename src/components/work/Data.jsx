@@ -2,53 +2,52 @@ import Work1 from "../../assets/work1.jpg"
 import Work2 from "../../assets/work2.jpg"
 import Work3 from "../../assets/work3.jpg"
 import Work4 from "../../assets/work4.jpg"
-import Work5 from "../../assets/work5.jpg"
 
 
 export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'Front-end',
+        title: 'Site Perguntas Anônimas',
         category: 'web',
+        link: 'https://github.com/euvitech/site-perguntas-anonimas'
     },
 
     {
         id: 2,
         image: Work2,
-        title: 'Front-end',
+        title: 'Código @euvitech',
         category: 'web',
+        link: 'https://github.com/euvitech/portifolio-react'
+
     },
 
     {
         id: 3,
         image: Work3,
-        title: 'Front-end',
+        title: 'UnderShip',
         category: 'web',
+        link: 'https://github.com/euvitech/undership-3.0'
+
     },
 
     {
         id: 4,
         image: Work4,
-        title: 'Automation',
-        category: 'automation',
-    },
+        title: 'Portfólio Design',
+        category: 'web',
+        link: 'https://drive.google.com/drive/folders/1fdrtlqSMylTiYvmpikStgwhUG_qzWpW-?usp=sharing'
 
-    {
-        id: 5,
-        image: Work5,
-        title: 'Brand Design',
-        category: 'design',
     }
 ];
 
 export const projectsNav = [
     {
-        name: 'all',
+        name: 'Todos',
     },
 
     {
-        name: 'automation',
+        name: 'Automatização',
     },
 
     {
