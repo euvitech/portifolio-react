@@ -4,7 +4,7 @@
 
 <p><strong>Euvitech</strong> - Essa é minha nova versão no ramo principal </p>
 
-### 📫 Para contribuir com GRUPO10, siga estas etapas:
+### 📫 Para contribuir, siga estas etapas:
 
 1. git pull sempre.
 2. Crie um branch: `git checkout -b <nome_branch>`.
